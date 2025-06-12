@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0PX;
+            padding: 0PX;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+              width: 400px;
+        }
+
+        td, tr {
+            border: 2px solid rgba(0, 0, 0, 0.329);
+            text-align: center;
+            height:40px;
+            width: 30px;
+            
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4"> B </td>
+        </tr>
+        <tr>
+            <td rowspan="4"> C</td>
+            <td>D</td>
+            <TD>E</TD>
+            <TD>F</TD>
+        </tr>
+            <td>G</td>
+            <td>H</td> 
+            <TD>I</TD> 
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>          
+    </table>
+    
+</body>
+</html>
