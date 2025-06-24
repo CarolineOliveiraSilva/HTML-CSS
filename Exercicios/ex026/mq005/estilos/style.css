@@ -42,7 +42,7 @@ header h1{
     text-align: center;
     color: white;
 }
-#burguer{
+i#burguer{
     background-color: rgb(199, 184, 214);
     color: white;
     display: block;
@@ -52,8 +52,8 @@ header h1{
    
 }
 
-#burguer:hover {
-    background-color: rgb(161, 114, 206);
+i#burguer:hover {
+    background-color: rgba(255, 254, 254, 0.884);
     color: rgb(0, 0, 0);
 
 }
@@ -71,11 +71,11 @@ nav > ul > li > a {
    text-align: center;
    background-color: blueviolet;
    color: white;
-   border-top: 2px solid gray;
+   border-top: 2px solid rgb(68, 68, 68);
 }
 
-menu,{
-    display: block
+menu {
+    display: none;
 }
 
 menu >ul {
@@ -83,7 +83,7 @@ menu >ul {
 }
 
 menu a {
-    display: block;
+    display:block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -102,10 +102,12 @@ nav a:hover{
 
 main {
     width:90vw;
-    margin-top:50px;
-    padding: auto;
+    margin: auto;
+    margin-top:10px;
+    padding: 10px;
     text-align: center;
     color: white;
+    border-radius: 10px;
     
 }
 
