@@ -32,7 +32,6 @@ body {
  position: relative;
   z-index: 1;
   padding: 20px;
-  color: white;
   border-radius: 10px;
   max-width: 900px;
   margin: auto;
@@ -41,23 +40,62 @@ body {
 header h1{
     padding: 100px ;
     text-align: center;
+    color: white;
 }
-menu>ul{
+#burguer{
+    background-color: rgb(199, 184, 214);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer ;
+   
+}
+
+#burguer:hover {
+    background-color: rgb(161, 114, 206);
+    color: rgb(0, 0, 0);
+
+}
+nav {
+    display: none;
+}
+nav>ul{
    list-style: none;
+}
+
+nav > ul > li > a {
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+   background-color: blueviolet;
+   color: white;
+   border-top: 2px solid gray;
+}
+
+menu,{
+    display: block
+}
+
+menu >ul {
+    list-style: none;
 }
 
 menu a {
     display: block;
-    padding:10px;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgba(83, 14, 245, 0.151);
-    color: rgb(255, 255, 255);
-    position: relative;
+    background-color: rgba(97, 95, 97, 0.39);
+    color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.089);
 }
 
-menu a:hover{
-    background-color: rgba(255, 255, 255, 0.479);
+menu >ul >li > a:hover {
+    background-color: black;
+}
+nav a:hover{
     transform: translate(-1px, -1px);
     transition: transform 0.3s border 1s;
 }
@@ -67,6 +105,7 @@ main {
     margin: auto;
     margin-top:70px;
     padding: 10px;
+    color: white;
     
 }
 
