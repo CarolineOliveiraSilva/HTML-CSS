@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 5px;
+}
+
+.topo {
+    background-color: red;
+    text-align: center ;
+    grid-area: 1/1/2/7;
+
+}
+.menu {
+    background-color: green;
+    text-align: center;
+     grid-area: 2/1/2/7;
+    
+}
+.principal {
+    background-color:blue;
+    grid-area:3/1/span 3/ span 5;
+}
+
+.secundario{
+    background-color: aqua;
+    grid-area: 3/5/ span 3 /span 3;
+}
+
+.rodape{
+    background-color: rgb(255, 0, 191);
+    grid-area: 6/1/ span 5 /span 7;
+}
